@@ -18,8 +18,8 @@ Configuration de référence
                     level:               ERROR
                     bubble:              false
                     formatter:           my_formatter
-                    processors:
-                        - some_callable
+                    # processors: # pas encore implémenté
+                     #    - some_callable
                 main:
                     type:                fingers_crossed
                     action_level:        WARNING
